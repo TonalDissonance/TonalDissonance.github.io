@@ -24,7 +24,7 @@ window.addEventListener('resize', () => {
 canvas.addEventListener('click', event => {
     mouse.x = event.x;
     mouse.y = event.y;
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 5; i++) {
         particlesArray.push(new Particle());
     };
     
